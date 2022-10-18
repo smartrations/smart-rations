@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-family: Lucida Sans Unicode!important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url('https://i.hizliresim.com/tup529c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    perspective: 1000px;
+}
+
+.active {
+  color: rgb(90, 255, 57);
+}
+
+
+/*
+  background-color: rgb(25, 33, 56);
+*/
